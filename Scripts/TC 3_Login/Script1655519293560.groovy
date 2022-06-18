@@ -21,15 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://bioskoponline.com/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Bioskop Online/span_Masuk'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/TC 3_Login/Page_Bioskop Online/span_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Bioskop Online/input_username'), 'grace.sitanggang03@gmail.com')
+WebUI.setText(findTestObject('Object Repository/TC 3_Login/Page_Bioskop Online/input_username'), 'grace123@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Bioskop Online/input_password'), 'Ote7EnY2Pr4dKlT1OYZJlAJ2nHiBR1FR')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC 3_Login/Page_Bioskop Online/input_password'), 
+    'XwJ3T4Dl+7nSWkvFaH63Ow==')
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Login/Page_Bioskop Online/btn_Masuk'))
+WebUI.click(findTestObject('Object Repository/TC 3_Login/Page_Bioskop Online/btn_Masuk'))
 
 WebUI.closeBrowser()
 
